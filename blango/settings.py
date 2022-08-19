@@ -136,6 +136,7 @@ class Dev(Configuration):
       'drf_yasg',
       'django_filters',
       'versatileimagefield',
+      #'rest_framework_simplejwt.token_blacklist',
   ]
 
   # Versatile Image Field 
@@ -279,7 +280,7 @@ class Dev(Configuration):
         "rest_framework.authentication.TokenAuthentication",
         # SimpleJWT
         # https://django-rest-framework-simplejwt.readthedocs.io/en/latest/settings.html
-        "rest_framework_simplejwt.authentication.JWTAuthentication",
+        #"rest_framework_simplejwt.authentication.JWTAuthentication",
     ],
     "DEFAULT_PERMISSION_CLASSES": [
       "rest_framework.permissions.IsAuthenticatedOrReadOnly"
