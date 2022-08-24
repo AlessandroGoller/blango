@@ -136,6 +136,7 @@ class Dev(Configuration):
       'drf_yasg',
       'django_filters',
       'versatileimagefield',
+      #'rest_framework',
       #'rest_framework_simplejwt.token_blacklist',
   ]
 
